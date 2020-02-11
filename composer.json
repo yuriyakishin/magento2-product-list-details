@@ -1,5 +1,5 @@
 {
-    "name": "yuriyakishin/product-list-details",
+    "name": "yuriyakishin/magento2-product-list-details",
     "description": "Show attributes on product list",
     "require": {
         "php": "~7.1.3||~7.2.0||~7.3.0",
@@ -22,7 +22,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/yuriyakishin/product-list-details"
+            "url": "https://github.com/yuriyakishin/magento2-product-list-details"
         }
     ],
     "autoload": {
