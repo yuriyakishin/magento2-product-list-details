@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="adminhtml_catalog_product_attribute_edit_frontend_prepare_form">
+        <observer name="Yu_ProductListDetails_Observers_Adminhtml_Tab_Front" instance="Yu\ProductListDetails\Observer\Block\Adminhtml\Product\Attribute\Edit\Tab\Front" />
+    </event>
+</config>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="catalog_eav_attribute">
+        <column xsi:type="smallint" name="show_in_product_list" padding="5" unsigned="true" nullable="false"
+                identity="false" default="0" comment="Show in Product List"/>
+    </table>    
+</schema>

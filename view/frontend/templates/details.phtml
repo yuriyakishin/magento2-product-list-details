@@ -1,0 +1,16 @@
+<?php
+/**
+ * Product additional attributes template
+ *
+ * @var $block \Yu\ProductListDetails\Block\Details
+ */
+?>
+<?php
+foreach ($block->getDetailsData() as $data):
+    ?>
+    <div class="product-item-list-attr <?= $data['code'] ?>">
+        <span class="product-item-list-attr-label"><?= $data['label'] ?>:</span> <span class="product-item-list-attr-value"><?= $data['value'] ?></span>
+    </div>
+    <?php
+endforeach;
+?>
